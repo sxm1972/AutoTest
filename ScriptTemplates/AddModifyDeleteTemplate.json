@@ -1,0 +1,59 @@
+{
+  "pageLoadIndicator": { "id": "XXX6" },
+  "pageTitle": {
+    "css": "div#main h1",
+    "value": "XXX5"
+  },
+  "addDialogLauncher": { "css": "div.toolbar-area * li:nth-of-type(2) button" },
+  "addDialogIndicator": {
+    "css": ".aspect-dialog-add > span:nth-child(2)",
+    "value": " Add XXX7"
+  },
+  "addDialogCancel": {
+    "css": ".aspect-kendo-modal-header h5 a.aspect-dialog-close ",
+    "action": "Click"
+  },
+  "addDialogCancelWait": { "css": ".aspect-dialog-container.aspect-dialog-warning" },
+  "addDialogCancelConfirmYes": {
+    "css": ".aspect-dialog-container.aspect-dialog-warning * .listview-borderless > li:nth-child(1) > button:nth-child(1)",
+    "action": "Click"
+  },
+  "addDialogCancelConfirm": {
+    "id": "XXX6",
+    "url": "/CM/#/XXX4"
+  },
+  "addDialogElements": [
+    {
+      "id": "Description",
+      "type": "input",
+      "value": "AutoTestXXX4@UNIQUE@"
+    },
+    {
+      "css": "button.k-button:nth-child(1)",
+      "type": "submit",
+      "action": "Click"
+    }
+  ],
+  "modifyElement": { "xpath": "//td[text()='###VAL###']" },
+  "modifyElementLaunchButton": { "css": "div.toolbar-area * li:nth-of-type(3) button" },
+  "modifyDialogIndicator": {
+    "css": ".aspect-dialog-edit > span:nth-child(2)",
+    "value": " Edit XXX7"
+  },
+  "modifyDialogChangeElements": [
+    {
+      "id": "Description",
+      "type": "input",
+      "value": "AutoTestXXX4@UNIQUE@Modified"
+    },
+    {
+      "css": "button.k-button:nth-child(1)",
+      "type": "submit",
+      "action": "Click"
+    }
+  ],
+  "modifyDialogVerifyAfter": { "xpath": "//td[text()='###VAL###']" },
+  "deleteElement": { "xpath": "//td[text()='###VAL###']" },
+  "deleteElementLaunchButton": { "css": "li.toolbar-button-list-item:nth-child(5) > button:nth-child(1)" },
+  "deleteElementConfirmWait": { "css": "body > div.k-widget.k-window.k-window-titleless > div > div > div.bodyArea > div.dialog-footer-area > ul > li:nth-child(1) > button" }
+}
