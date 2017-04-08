@@ -1,0 +1,14 @@
+{
+  "name": "CMTest",
+  "version": "0.0.1",
+  "description": "CMTest",
+  "main": "configmgrtests.js",
+  "author": {
+    "name": "smallya",
+    "email": ""
+  },
+  "dependencies": {
+    "promise-map-series": "^0.2.3",
+    "selenium-webdriver": "^2.53.3"
+  }
+}
